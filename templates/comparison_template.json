@@ -1,0 +1,50 @@
+{
+    "product_a": {
+        "name": "GlowBoost Vitamin C Serum",
+        "concentration": "10% Vitamin C",
+        "skin_type": "Oily, Combination",
+        "ingredients": [
+            "Vitamin C",
+            "Hyaluronic Acid"
+        ],
+        "benefits": [
+            "Brightening",
+            "Fades dark spots"
+        ],
+        "usage": "Apply 2\u20133 drops in the morning before sunscreen",
+        "side_effects": "Mild tingling for sensitive skin",
+        "price": "\u20b9699"
+    },
+    "product_b": {
+        "name": "DermaShine Brightening Serum",
+        "concentration": "8% Vitamin C",
+        "skin_type": "Normal, Dry",
+        "ingredients": [
+            "Vitamin C",
+            "Aloe Vera"
+        ],
+        "benefits": [
+            "Hydration",
+            "Mild brightening"
+        ],
+        "usage": "Apply once daily",
+        "side_effects": "None",
+        "price": "\u20b9599"
+    },
+    "comparison": {
+        "price_comparison": "\u20b9699 vs \u20b9599",
+        "ingredient_overlap": [
+            "Vitamin C"
+        ],
+        "benefit_difference": {
+            "product_a": [
+                "Brightening",
+                "Fades dark spots"
+            ],
+            "product_b": [
+                "Hydration",
+                "Mild brightening"
+            ]
+        }
+    }
+}
