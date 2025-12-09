@@ -1,0 +1,117 @@
+
+### A Multi-Agent Automation Pipeline for Structured Content Generation
+
+---
+
+## 1. Overview
+
+This project implements a modular, agent-based automation system that generates structured content from a small product dataset. It follows the requirements of the Kasparro Applied AI Engineer Challenge.
+
+The system reads a single product dataset and automatically produces:
+
+* A FAQ page
+* A Product Description page
+* A Comparison page
+
+All outputs are generated as clean JSON files.
+
+---
+
+## 2. Features
+
+* Multi-agent architecture
+* Template-based content generation
+* Reusable content logic blocks
+* Automatic question generation
+* Automatic FAQ answer generation
+* Structured comparison with a fictional competitor product
+* Full automation controlled by an orchestrator
+* Machine-readable JSON output
+
+---
+
+## 3. Agents Used
+
+The system includes the following agents:
+
+* ParserAgent
+* QuestionGeneratorAgent
+* TemplateAgent
+* ComparisonAgent
+* PageAssemblyAgent
+
+Each agent has a single responsibility and works only through structured inputs and outputs.
+
+---
+
+## 4. Logic Blocks
+
+Reusable logic modules provide content transformation:
+
+* Benefits Block
+* Usage Block
+* Safety Block
+* Comparison Block
+* FAQ Answer Block
+
+These blocks make the system easy to extend and maintain.
+
+---
+
+## 5. Output Files
+
+Running the system generates three JSON files inside the `output` folder:
+
+* `faq.json`
+* `product_page.json`
+* `comparison_page.json`
+
+These files contain fully structured, machine-readable content.
+
+---
+
+## 6. How to Run the Project
+
+1. Clone the repository
+2. Install Python 3.x
+3. Navigate to the project root
+4. Run the main script:
+
+```
+python3 main.py
+```
+
+After running the script, the output JSON files will be available in the `output` folder.
+
+---
+
+## 7. Project Structure
+
+```
+/agents
+/logic_blocks
+/templates
+/output
+/orchestrator
+/docs
+main.py
+README.md
+```
+
+---
+
+## 8. Documentation
+
+Detailed documentation is available in:
+
+```
+/docs/projectdocumentation.md
+```
+
+---
+
+## 9. Conclusion
+
+This project demonstrates the design of a production-style AI content generation system. It uses multiple agents, reusable logic, well-defined templates and a clear automation pipeline. The system is fully aligned with the engineering expectations of the Kasparro Applied AI Engineer Challenge.
+
+---
